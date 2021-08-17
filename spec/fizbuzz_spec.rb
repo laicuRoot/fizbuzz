@@ -16,7 +16,7 @@ RSpec.describe FizzBuzz do
     end
 
     it "returns [1, 2, Fizz] when we pass integer 3" do
-      expect(fizzbuzz.fizzbuzz_logic).to eq([1,2,"Fizz"])
+      expect(fizzbuzz.fizzbuzz_logic).to eq([1, 2, "Fizz"])
     end
   end
 end
